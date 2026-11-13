@@ -1,0 +1,50 @@
+{
+    // Spacecraft
+    bus_size : 1000,    // Spacecraft bus cube size
+    SapOff: 995, //  Two solar array panels, each (1285+45) x 840, starting 995 from the center
+    SapW:  1330,
+    SapH:   840,
+    SapD:    10,
+    // Telescope enclosure
+    tbox_height : 1003, // Telescope enclosure height
+    tbox_width  : 1000, // Telescope enclosure width and depth (equal)
+    tbox_extend : 215,  // Telescope enclosure extension
+    // Baffle
+    baffle_dia  : 556,  // Baffle outer diameter
+    baffle_height : 950, // Baffle height
+    baffle_offset : 50, // Baffle offset in the -X direction
+    // Envelope
+    env_d1 : 2120,      // Envelope diameter, ordered from bottom to top
+    env_d2 : 1946,      // Envelope diameter, ordered from bottom to top
+    env_d3 : 1798,      // Envelope diameter, ordered from bottom to top
+    env_d4 :  236,      // Envelope diameter, ordered from bottom to top
+    env_h1 : 1560,      // Envelope bend height 1060 + 500
+    env_h2 : 1840,      // Envelope bend height 280 + 1060 + 500
+    env_h3 : 4295,      // Envelope bend height 3795 + 500
+    //Radiator   modelsheild.py -a 300 -b 199 -r 261 -l 196 based on
+    rad_width_1 : 398,   // Radiator width along Y at the +X side
+    rad_width_2 : 398,   // Radiator width along Y at the -X side
+    rad_offset : 335,    // Distance from the bus center to the radiator +X edge
+    rad_depth :  370,    // Radiator extent along X
+    rad_h1 :       1,     // Radiator clearance above the telescope enclosure
+    rad_width_3 : 522,   // First-stage radiator shield width along Y at the +X side
+    rad_width_4 : 522,   // First-stage radiator shield width along Y at the -X side
+    rad_dx1     : 50,     // First-stage radiator shield extension on the +X side
+    rad_dx2     : 50,     // First-stage radiator shield extension on the -X side
+    rad_h2      : 196,    // First-stage radiator shield height relative to h1
+    rad_width_5 : 600,   // Second-stage radiator shield width along Y at the +X side
+    rad_width_6 : 600,   // Second-stage radiator shield width along Y at the -X side
+    rad_dx3     : 50,     // Second-stage radiator shield extension on the +X side
+    rad_dx4     : 50,     // Second-stage radiator shield extension on the -X side
+    rad_h3      : 600,    // Second-stage radiator shield height relative to h1
+    sld_d1      :  0,     // First-stage sunshield +X-side distance from the enclosure in +X
+    sld_w1      : 1000,   // First-stage sunshield front width on the +X side
+    sld_h1      : 600,    // First-stage sunshield height
+    sld_d2      :  600,   // First-stage sunshield -X-side distance from the enclosure in -X
+    sld_w2      : 1200,   // First-stage sunshield width on the -X side
+    sld_d3      : 200,    // Second-stage sunshield +X-side distance from the enclosure in -X
+    sld_w3      : 700,    // Second-stage sunshield front width on the +X side
+    sld_h2      : 700,    // Second-stage sunshield height above the enclosure
+    sld_d4      : 200,    // Second-stage sunshield -X-side distance from the enclosure in -X
+    sld_h3      : 1800,   // Sunshield top height
+}

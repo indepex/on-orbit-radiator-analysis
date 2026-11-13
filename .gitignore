@@ -1,0 +1,36 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Compiled C libraries and object files
+*.o
+*.so
+*.a
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Editor and OS temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+
+# Temporary and backup files
+*.bak
+*.tmp
