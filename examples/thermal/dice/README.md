@@ -114,6 +114,46 @@ The optional `--dly` argument changes the duration of the observation interval i
 the prescribed attitude calculation. It can be used to examine the effect of shortening
 the observation period; its interpretation is defined by the attitude-model implementation.
 
+
+## Directional Earth-Coupling Maps
+
+The following figures show the directional Earth-radiation coupling
+for six solar ecliptic longitudes.
+
+<table>
+<tr>
+<td align="center">
+  <img src="output/earth_coupling_312.png" width="250"><br>
+  Solar longitude: 312°
+</td>
+<td align="center">
+  <img src="output/earth_coupling_000.png" width="250"><br>
+  Solar longitude: 0°
+</td>
+<td align="center">
+  <img src="output/earth_coupling_042.png" width="250"><br>
+  Solar longitude: 42°
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="output/earth_coupling_132.png" width="250"><br>
+  Solar longitude: 132°
+</td>
+<td align="center">
+  <img src="output/earth_coupling_180.png" width="250"><br>
+  Solar longitude: 180°
+</td>
+<td align="center">
+  <img src="output/earth_coupling_222.png" width="250"><br>
+  Solar longitude: 222°
+</td>
+</tr>
+</table>
+
+The maps show the accumulated cosine-weighted directional exposure
+to Earth radiation over one orbital revolution.
+
 ## Results and Design Implications
 
 The simplified analysis highlights several features relevant to the radiator and shield design:

@@ -109,16 +109,20 @@ python orb_view.py \
     -n attitude
 ```
 
-Six PDF files are generated:
+Six PDF files are generated. Click a thumbnail to open the PDF.
 
-```text
-attitude_plot00.pdf
-attitude_plot01.pdf
-attitude_plot02.pdf
-attitude_plot03.pdf
-attitude_plot04.pdf
-attitude_plot05.pdf
-```
+<table>
+<tr>
+<td><a href="output/attitude_plot00.pdf"><img src="output/attitude_plot00.png" width="250"></a></td>
+<td><a href="output/attitude_plot01.pdf"><img src="output/attitude_plot01.png" width="250"></a></td>
+<td><a href="output/attitude_plot02.pdf"><img src="output/attitude_plot02.png" width="250"></a></td>
+</tr>
+<tr>
+<td><a href="output/attitude_plot03.pdf"><img src="output/attitude_plot03.png" width="250"></a></td>
+<td><a href="output/attitude_plot04.pdf"><img src="output/attitude_plot04.png" width="250"></a></td>
+<td><a href="output/attitude_plot05.pdf"><img src="output/attitude_plot05.png" width="250"></a></td>
+</tr>
+</table>
 
 Each plot shows the angular relationships between the spacecraft, the Sun, the observation target, and Earth as functions of orbital phase.
 
@@ -144,15 +148,21 @@ The arrow model represents the spacecraft body axes:
 
 The spacecraft attitude is drawn at 5° orbital-phase intervals, with phase labels every 30°.
 
-For each case, the program generates a PNG image and an interactive HTML file:
+For each case, the program generates a PNG image and an interactive HTML file.
+Click an image to access the corresponding HTML visualization.
 
-```text
-attitude_view00.png
-attitude_view00.html
-...
-attitude_view05.png
-attitude_view05.html
-```
+<table>
+<tr>
+<td><a href="output/attitude_view00.html"><img src="output/attitude_view00.png" width="250"></a></td>
+<td><a href="output/attitude_view01.html"><img src="output/attitude_view01.png" width="250"></a></td>
+<td><a href="output/attitude_view02.html"><img src="output/attitude_view02.png" width="250"></a></td>
+</tr>
+<tr>
+<td><a href="output/attitude_view03.html"><img src="output/attitude_view03.png" width="250"></a></td>
+<td><a href="output/attitude_view04.html"><img src="output/attitude_view04.png" width="250"></a></td>
+<td><a href="output/attitude_view05.html"><img src="output/attitude_view05.png" width="250"></a></td>
+</tr>
+</table>
 
 The `-f` and `-v` options are mutually exclusive and must be used in separate commands.
 

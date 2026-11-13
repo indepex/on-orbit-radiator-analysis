@@ -123,11 +123,12 @@ The program performs the following operations:
 
 The first orbital revolution is highlighted in red, while the complete one-day ground track is shown in blue.
 
-The output file is:
+The output figure is shown below.
 
-```text
-examples/orbit/output/orbit-map.png
-```
+![Satellite ground track](output/orbit-map.png)
+
+*Figure 1. Satellite ground track over one day.
+The first orbital revolution is highlighted in red.*
 
 ### Optional Parameters
 
